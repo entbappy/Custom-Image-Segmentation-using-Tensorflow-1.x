@@ -1,1 +1,1 @@
-# Custom Image Segmentation using Tesnorflow 1.x
+# Custom Image Segmentation using Tensorflow 1.x
