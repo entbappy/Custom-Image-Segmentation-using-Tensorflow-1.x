@@ -55,6 +55,7 @@ This section of the topic helps you to do the Image Segmentation using Tensorflo
 ## Setup Procedure
 
 1 . Download/Clone the repository ( https://github.com/entbappy/Custom-Image-Segmentation-using-Tensorflow-1.x )  and open it in VSCode .
+
 2 . Create your conda environment : 
 	
 	conda create -n myTF1x python=3.6
@@ -117,12 +118,12 @@ This section of the topic helps you to do the Image Segmentation using Tensorflo
 	
 5 . Run below commands in VSCode :
 
-		#train cmd: ( Files will be getting generated under location : "models\research\mask_training" )
-		python train.py --logtostderr --train_dir=mask_training/ --pipeline_config_path=mask_training/mask_rcnn_inception_v2_coco.config
+	#train cmd: ( Files will be getting generated under location : "models\research\mask_training" )
+	python train.py --logtostderr --train_dir=mask_training/ --pipeline_config_path=mask_training/mask_rcnn_inception_v2_coco.config
 
 
-		#inference cmd ( Files will be getting generated under location : "models\research\inference_graph" )
-		python export_inference_graph.py --input_type image_tensor --pipeline_config_path mask_training/mask_rcnn_inception_v2_coco.config --trained_checkpoint_prefix mask_training/model.ckpt-10 --output_directory inference_graph
+	#inference cmd ( Files will be getting generated under location : "models\research\inference_graph" )
+	python export_inference_graph.py --input_type image_tensor --pipeline_config_path mask_training/mask_rcnn_inception_v2_coco.config --trained_checkpoint_prefix mask_training/model.ckpt-10 --output_directory inference_graph
 		
 6 . You can find your final model under location : models\research\inference_graph\saved_model\saved_model.pb		
 	
