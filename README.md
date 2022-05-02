@@ -106,6 +106,7 @@ This section of the topic helps you to do the Image Segmentation using Tensorflo
 	mask_rcnn_inception_v2_coco.config
 	
 3 . One copy of file "labelmapdog.pbtxt" on location :"models\research\mask_training" to be present under location "models\research\data" .
+
 4 . Open file "models\research\mask_training\mask_rcnn_inception_v2_coco.config" and update as below :
 
 	num_classes: 1 ( Row # 10 )
