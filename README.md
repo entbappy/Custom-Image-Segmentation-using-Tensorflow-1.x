@@ -1,11 +1,12 @@
-
 # Image Segmentation using Tensorflow-1.x
 
 This section of the topic helps you to do the Image Segmentation using Tensorflow-1.x . 
 
-	- This particular Github repository is made and customized from the original tensorflow website : https://github.com/tensorflow/models/tree/v1.13.0
-	- Remember you don't have to select current tag version-2.x.0 from original tensorflow website , rather to use version-v1.13.0 
-	- If you clone the official Tensorflow repository and use it you may face various issues , so to ease out the pain  you can clone this customized repository and use it :  https://github.com/entbappy/Custom-Image-Segmentation-using-Tensorflow-1.x
+1 ) This particular Github repository is made and customized from the original tensorflow website : https://github.com/tensorflow/models/tree/v1.13.0
+
+2 ) Remember you don't have to select current tag version-2.x.0 from original tensorflow website , rather to use version-v1.13.0 
+
+3 ) If you clone the official Tensorflow repository and use it you may face various issues , so to ease out the pain  you can clone this customized repository and use it :  https://github.com/entbappy/Custom-Image-Segmentation-using-Tensorflow-1.x
 
 
 ## Pre-requisites
